@@ -1,0 +1,26 @@
+{
+  "name": "proyecto_zepelin",
+  "version": "1.0.0",
+  "description": "Es una aplicacion para la administracion de la asociacion, y publicidad para esta",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index"
+  },
+  "keywords": [
+    "Michoacan",
+    "Morelia",
+    "Fronton",
+    "Deporte",
+    "Juventud",
+    "Tenis"
+  ],
+  "author": "Eduardo Vanegas Vanegas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
