@@ -27,11 +27,16 @@ body{
 
 .contenido-informacion{
     width: 50%;
-    height: 100%;
-    
+    height: 80%;
+      
 
 }
 
+.contenido-informacion-central{
+    width: 100%;
+    height: 70%;
+    
+}
 
 
 .contenido-informacion .tituloObjetivo{
@@ -98,13 +103,13 @@ body{
     
     display: inline-block;
     border: 2px solid white;
-    padding: 20px  50px;
+    padding: 3%  5%;
     color: rgb(2, 1, 1);
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     background-color: orange;
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 4%;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
 
@@ -117,27 +122,105 @@ body{
 }
 
 .mision_Vision{
-    width: 100%;
-    height: 100%;
+    width: 97%;
+    height: 100vh;
     background-color: #000000;
-
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
 
 }
+
+.contenedorMision{
+    width: 70%;
+    height: 60%;
+   
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+.contenedor_imagen{
+    width: 50%;
+    height: 100%;
+   
+    
+}
+
+.contenedor_imagen img{
+    width: 80%;
+    height: 100%;
+}
+
+.contenedor-parrafo{
+    width: 50%;
+    height: 100%;
+}
+
+.contenedor-titulo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-titulo h2{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contenedor-texto{
+    width: 100%;
+    height: 90%;
+}
+
+.contenedor-texto p{
+    
+    text-align: justify;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+
 
 /*/////////////////////////////////////////////Media Querys////////////////////////////////////////////////*/
 
 @media screen and (max-width: 1023px){
   
-
-
-
-
+ 
 
 
 }
 
 @media screen and (max-width: 767px){
+    .objetivo{
+        width: 100%;
+        height: 70%;
+        background-color: #000000;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+       
+        
     
+    }
+    
+    .contenido-informacion{
+        width: 50%;
+        height: 80%;
+          
+    
+    }   
   
 
 
@@ -152,9 +235,6 @@ body{
         display: -ms-flexbox;
         display: -webkit-flex;
         flex-wrap: wrap;
-       
-        
-    
     }
     
     .contenido-informacion{
@@ -171,27 +251,11 @@ body{
     }
 
     .contenido-Objetivo p{
-  font-weight: 300;
-  font-size: 16px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    
   
-    
-    }
-    
-    .btn-ghost{
-    
-    display: inline-block;
-    border: 2px solid white;
-    padding: 15px  25px;
-    color: rgb(2, 1, 1);
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: orange;
-    margin-top: 10%;
-    border-radius: 4%;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
-
-    }
 
     .contenido-video{
     width: 100%;
@@ -203,10 +267,56 @@ body{
         height: 100%;
         margin-top: 5%;
         margin-left: 5%;
-
     }
     
+
+                /*Mision */
+
+    .mision_Vision{
+        width: 97%;
+        height: 73vh;
+        margin-top: 5%;
+        background-color: #030707;
+      
+    }
+    .contenedorMision{
+        width: 97%;
+    }
+
+    .contenedor_imagen{
+        width: 40%;
+        height: 30%;
+        
+       
+        
+    }
+
+    .contenedor-parrafo{
+        width: 60%;
+        height: 30%;
+    }
+    .contenedor-titulo h2{
+        color: #ffffff;
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .contenedor-texto{
+        margin-top: 1%;
+    }
+
+    .contenedor-texto p{
+        font-weight: 300;
+        font-size: 16px;
     
+    }
+
+    
+    .linea-mision{
+        margin-top: -10%;
+    }
+
     
 }
 
@@ -215,16 +325,131 @@ body{
 
 
   @media screen and (max-width: 1023px) and  (orientation: landscape){
-   
+    
+    .objetivo{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .contenido-informacion{
+        width: 50vw;
+        height: 90%;
+        
+    }
+
+    .tituloObjetivo h2{
+      
+        font-size: 20px;
+        font-weight: 400;
+    
+    }
+
+    .contenido-Objetivo p{
+    font-weight: 300;
+    font-size: 14px;
+  }
+    
+    .btn-ghost{
+        margin-top: 10%;
+    }
+
 
 }
 
 @media screen and (max-width: 767px) and  (orientation: landscape){
     
-  
+    .objetivo{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .contenido-informacion{
+        width: 100vw;
+        height: 90%;
+    }
+
+    .contenido-informacion-central{
+        width: 100%;
+        height: 80%;
+        
+    }
+
+    .contenido-video{
+        width: 90%;
+        height: 80%;
+        }
+    
+        .video{
+            width: 95%;
+            height: 100%;
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+
+        .btn-ghost{
+            margin-top: 2%;
+        }
+
+        .linea{
+            width: 100%;
+            height: 2px ;
+            background-color: #32E80D;
+            margin-top: 50%;
+        }
+        
+        /*Linea de mision Vision*/
+
+        .contenedorMision{
+            width: 96vw;
+            height: 65%;
+            
+            margin-left: 2%;
+        }
+
+        .contenedor_imagen{
+            width: 50vw;
+            height: 90%;
+        }
+    
+        .contenedor-parrafo{
+            width: 50vw;
+            height: 50%;
+        }
+        
+        .contenedor-titulo{
+            width: 50vh;
+            height: 10%;
+        }
+
+        
+        .contenedor-titulo h2{
+            color: #ffffff;
+            font-family: 'Lato', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    
+        .contenedor-texto{
+            margin-top: 1%;
+        }
+    
+        .contenedor-texto p{
+            font-weight: 300;
+            font-size: 16px;
+        
+        }
+
+
+
+.linea-mision{
+    width: 100vw;
+    height: 5px;
+    background-color: #32E80D;
+}
+
 
 }
 
 @media screen and(max-width: 480px) and  (orientation: landscape){
-
+    
 }

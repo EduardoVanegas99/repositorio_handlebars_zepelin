@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+    
+}
+
+.conetenedor-navegacion{
+    width: 10%;
+    height: 100vh;
+    background-color: aqua;
+    border-radius: 4px;
+    margin-left: 2%;
+    
+}
+
+.conetenedor-navegacion ul li{
+    list-style: none;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.conetenedor-navegacion ul li a{
+    text-decoration-style: none;
+    text-decoration: none;
+}
+
+.contenedorClubes{
+    width: 84%;
+    height: 100vh;
+    background-color: red;
+    margin-left: 12%;
+    margin-top: -45%;
+}
+
+.contenedor-formulario{
+    width: 4%;
+    height: 100vh;
+    background-color: aqua;
+    margin-top: -47%;
+    float: right;
+}
